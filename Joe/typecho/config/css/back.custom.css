@@ -1,0 +1,55 @@
+.joe_config__themeUpdate {
+    display:none;
+    margin-left:15px;
+    background:#fff;
+    padding:15px;
+    flex:1;
+    box-shadow:0px 0px 20px -5px rgba(158,158,158,0.22);
+    border-radius:8px;
+    line-height:28px;
+    color:#606266
+}
+.joe_config__link {
+    display:none;
+    margin-left:15px;
+    background:#fff;
+    padding:15px;
+    flex:1;
+    box-shadow:0px 0px 20px -5px rgba(158,158,158,0.22);
+    border-radius:8px;
+    line-height:28px;
+    color:#606266
+}
+.joe_config__caiji {
+    display:none;
+    margin-left:15px;
+    background:#fff;
+    padding:15px;
+    flex:1;
+    box-shadow:0px 0px 20px -5px rgba(158,158,158,0.22);
+    border-radius:8px;
+    line-height:28px;
+    color:#606266
+}
+.joe_config__dingyue {
+    display:none;
+    margin-left:15px;
+    background:#fff;
+    padding:15px;
+    flex:1;
+    box-shadow:0px 0px 20px -5px rgba(158,158,158,0.22);
+    border-radius:8px;
+    line-height:28px;
+    color:#606266
+}
+.joe_config__query {
+    display:none;
+    margin-left:15px;
+    background:#fff;
+    padding:15px;
+    flex:1;
+    box-shadow:0px 0px 20px -5px rgba(158,158,158,0.22);
+    border-radius:8px;
+    line-height:28px;
+    color:#606266
+}
