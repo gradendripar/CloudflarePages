@@ -1,0 +1,15 @@
+
+2022-09-04 03:48:42: {"code":"download_geoip","type":"country","message":"cURL error 28: Operation timed out after 60000 milliseconds with 1989754 out of 2710911 bytes received"}
+2022-09-04 03:48:51: {"code":"download_geoip","type":"country","message":"cURL error 28: Operation timed out after 60000 milliseconds with 1947547 out of 2710911 bytes received"}
+2022-09-05 01:49:19: {"code":"download_geoip","type":"city","message":"cURL error 28: Operation timed out after 60000 milliseconds with 1309465 out of 32626589 bytes received"}
+2022-09-05 01:51:09: {"code":"download_geoip","type":"city","message":"cURL error 28: Operation timed out after 60000 milliseconds with 2538265 out of 32626589 bytes received"}
+2022-09-05 01:52:26: {"code":"download_geoip","type":"city","message":"cURL error 28: Operation timed out after 60000 milliseconds with 2342105 out of 32626589 bytes received"}
+2022-09-05 01:52:36: {"code":"download_geoip","type":"city","message":"cURL error 28: Operation timed out after 60000 milliseconds with 2244608 out of 32626589 bytes received"}
+2022-09-08 01:26:54: Duplicate entry '2022-09-09' for key 'unique_date'
+2022-09-12 01:50:49: Duplicate entry '2022-09-13' for key 'unique_date'
+2022-09-19 02:00:14: Duplicate entry '2022-09-20' for key 'unique_date'
+2022-09-21 01:26:41: Duplicate entry '2022-09-22' for key 'unique_date'
+2022-09-26 01:27:29: Duplicate entry '2022-09-27' for key 'unique_date'
+2022-09-28 01:28:00: Duplicate entry '2022-09-29' for key 'unique_date'
+2022-10-02 01:27:59: Duplicate entry '2022-10-03' for key 'unique_date'
+2022-10-04 01:25:56: Duplicate entry '2022-10-05' for key 'unique_date'
