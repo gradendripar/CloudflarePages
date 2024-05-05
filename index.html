@@ -1,108 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <title>我的购物车</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />  
+    <title>404 - 该页面不存在</title>
+    <style>
+        body{margin:0;padding:0;text-align:center;font-family:Helvetica,Arial,"PingFang SC","Microsoft YaHei","WenQuanYi Micro Hei","tohoma,sans-serif"}
+        a,button.submit{color:#6e7173;text-decoration:none;-webkit-transition:all .1s ease-in;-moz-transition:all .1s ease-in;-o-transition:all .1s ease-in;transition:all .1s ease-in}
+        a:active,a:hover{color:#6e7173}
+        header{margin:0 auto;padding-top:50px;color:#444;text-align:center;letter-spacing:2px;font:normal 150px/1 "Helvetica Neue",Helvetica,Arial}
+        header i{font-style:normal}
+        article{width:100%;background:#fff;background-size:auto 100%;text-shadow:1px 1px 0 #fff}
+        article img{width:30%;min-width:360px;border-radius:20px}
+        footer{margin:30px 0;font-size:10px;}
+        .btn{display:inline-block;margin-top:24px;padding:0 25px;height:36px;border:1px solid #ccc;border-radius:16px;background:#444;background-color:#fff;color:#999;text-align:center;text-shadow:none;white-space:nowrap;letter-spacing:1px;font-size:14px;line-height:36px;cursor:pointer;-webkit-transition-duration:.4s;transition-duration:.4s;-moz-user-select:-moz-none;-webkit-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none}
+        .btn:hover{outline-style:none;border-color:#f77b83;color:#f77b83}
+    </style>
 </head>
 <body>
-<p align="center">2、运用前端技术，完成下图购物车静态页面的开发</p>
-<p style="font-size: 25px;">我的购物车</p>
-<table style="width: 100%;border: 1px solid #e9e9e9;border-top: 3px solid red;background-color: #f3f3f3;">
-    <tr>
-        <td width="6%"><label><input class="check-box" type="checkbox"/></label>&emsp;全选</td>
-        <td width="25%" align="center">商品</td>
-        <td width="17%" align="center">商品信息</td>
-        <td width="15%" align="center">单价</td>
-        <td width="25%" align="center">数量</td>
-        <td width="12%" align="center">操作</td>
-    </tr>
-</table>
-<table>
-    <tr>
-        <td><label style="margin-left: 1px;"><input class="check-box" type="checkbox"/></label>&emsp;店铺：太子龙男装旗舰店</td>
-    </tr>
-</table>
-<table style="width: 100%;border: 1px solid #e9e9e9;background-color: #f3f3f3;">
-    <tr>
-        <td width="31%">
-            <span style="float: left;margin-top: 30px;"><label><input class="check-box" type="checkbox"/></label></span>
-            <span style="float: left;">&emsp;<img src="1.jpg" width="80px" height="80px"/></span>
-            <span style="float: left;transform: translateY(50%);">&emsp;太子龙（TEDELON）男装 夏款男式纯棉短袖<br>&emsp;丝光T恤衫YYXAW076 黑色系800 175/L</span>
-        </td>
-        <td width="17%" align="center">颜色分类：黑色<br>尺码：175L</td>
-        <td width="15%" align="center"><strong>199.00</strong></td>
-        <td width="25%" align="center">
-            <label><input class="cut" type="button" value="-"/></label>
-            <label><input class="num" type="text" value="1" style="width: 100px;text-align: center"/></label>
-            <label><input class="add" type="button" value="+"/></label>
-        </td>
-        <td width="12%" align="center">移入收藏夹<br>&ensp;删除<br>&ensp;修改优惠</td>
-    </tr>
-</table>
-<table style="width: 100%;border: 1px solid #e9e9e9;background-color: #f3f3f3;">
-    <tr>
-        <td width="31%">
-            <span style="float: left;margin-top: 30px;"><label><input class="check-box" type="checkbox"/></label></span>
-            <span style="float: left;">&emsp;<img src="1.jpg" width="80px" height="80px"/></span>
-            <span style="float: left;transform: translateY(50%);">&emsp;太子龙（TEDELON）男装 夏款男式纯棉短袖<br>&emsp;丝光T恤衫YYXAW076 黑色系800 175/L</span>
-        </td>
-        <td width="17%" align="center">颜色分类：黑色<br>尺码：175L</td>
-        <td width="15%" align="center"><strong>199.00</strong></td>
-        <td width="25%" align="center">
-            <label><input class="cut" type="button" value="-"/></label>
-            <label><input class="num" type="text" value="1" style="width: 100px;text-align: center"/></label>
-            <label><input class="add" type="button" value="+"/></label>
-        </td>
-        <td width="12%" align="center">移入收藏夹<br>&ensp;删除<br>&ensp;修改优惠</td>
-    </tr>
-</table>
-<script type="text/javascript">
-    window.onload = function () {
-        const addMent = document.getElementsByClassName("add");
-        for (let i = 0; i < addMent.length; i++) {
-            addMent[i].onclick = function () {
-                const addNum = document.getElementsByClassName("num")[i];
-                addNum.setAttribute("value", parseInt(addNum.value) + 1);
-            }
-        }
-        const cutMent = document.getElementsByClassName("cut");
-        for (let j = 0; j < cutMent.length; j++) {
-            cutMent[j].onclick = function () {
-                const cutNum = document.getElementsByClassName("num")[j];
-                if (parseInt(cutNum.value) - 1 > 0) {
-                    cutNum.setAttribute("value", parseInt(cutNum.value) - 1);
-                } else {
-                    cutNum.setAttribute("value", 0);
-                }
-            }
-        }
-    };
-    const inputs = document.getElementsByClassName("check-box");
-    let num = 0;
-    inputs[0].onclick = function () {
-        for (let i = 1; i < inputs.length; i++) {
-            inputs[i].checked = this.checked;
-        }
-        if (this.checked) {
-            num = inputs.length - 1;
-        } else {
-            num = 0;
-        }
-    };
-    for (let i = 1; i < inputs.length; i++) {
-        inputs[i].onclick = function () {
-            if (!this.checked) {
-                inputs[0].checked = false;
-                num--;
-            } else {
-                num++;
-            }
-            if (num === inputs.length - 1) {
-                inputs[0].checked = true;
-            }
-        }
-    }
-
-</script>
+    <header>
+        <i>404</i>
+    </header>
+    <article>
+        <p>可 能 我 们 真 的 走 错 了 ！</p><br>
+        <img src="https://api.uomg.com/api/rand.img3" alt="小姐姐">
+    </article>
+    <footer>
+        <a href="javascript:location.reload();"class="btn">点击刷新</a>
+        <br>
+    </footer>
 </body>
 </html>
